@@ -29,23 +29,37 @@ namespace TreeFractal
         private void SetSize()
         {
             zedGraphControl1.Location = new Point(10, 10);
-            zedGraphControl1.Size = new Size(ClientRectangle.Width - 20,
-                ClientRectangle.Height - 20);
+            zedGraphControl1.Size = new Size(ClientRectangle.Width - 20, ClientRectangle.Height - 20);
         }
         
         private void CreateGraph(ZedGraphControl zgc)
         {
             //получим панель для рисования
             GraphPane pane = zgc.GraphPane;
+            
+            double initialX = 0.0;  // Начальная координата X
+            double initialY = 75.0;  // Начальная координата Y
 
+// Определение размеров графика
+            double graphWidth = 150.0;  // Ширина графика
+            double graphHeight = 150.0; // Высота графика
+
+// Вычисление границ осей
+            double minX = initialX - (graphWidth / 2.0);
+            double maxX = initialX + (graphWidth / 2.0);
+            double minY = initialY - (graphHeight / 2.0);
+            double maxY = initialY + (graphHeight / 2.0);
+
+// Установка значений осей
+            pane.XAxis.Scale.Min = minX;
+            pane.XAxis.Scale.Max = maxX;
+            pane.YAxis.Scale.Min = minY;
+            pane.YAxis.Scale.Max = maxY;
+            
             int rootX = 0;
             int rootY = 0;
             int x = rootX;
             int y = rootY + _startLength;
-            /*PointPairList pointList = new PointPairList();
-            pointList.Add(rootX, rootY);
-            pointList.Add(x, y);
-            LineItem line = pane.AddCurve("Линия", pointList, Color.Blue, SymbolType.None);*/
             LineObj line = new LineObj(Color.SaddleBrown, rootX, rootY, x, y);
             line.Line.Style = System.Drawing.Drawing2D.DashStyle.Solid;
             line.Line.Width = 10;
