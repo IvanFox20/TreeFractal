@@ -1,0 +1,14 @@
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\bin\Debug\TreeFractal.exe.config
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\bin\Debug\TreeFractal.exe
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\bin\Debug\TreeFractal.pdb
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\bin\Debug\ZedGraph.dll
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.csproj.AssemblyReference.cache
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.csproj.SuggestedBindingRedirects.cache
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.Properties.Resources.resources
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.csproj.GenerateResource.cache
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.csproj.CoreCompileInputs.cache
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.csproj.CopyComplete
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.exe
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.pdb
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.Form1.resources
+D:\Код\Теория фракталов лабы\TreeFractal\TreeFractal\obj\Debug\TreeFractal.Graph.resources
